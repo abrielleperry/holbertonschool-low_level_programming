@@ -32,8 +32,8 @@ int print_sign(int n)
 		_putchar('0');
 		r = 0;
 	}
-	
-	
+
+
 	return (r);
 
 }
