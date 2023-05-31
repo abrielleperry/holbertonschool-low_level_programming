@@ -2,7 +2,7 @@
 /* more headers go here*/
 
 /**
- * print_most_numbers 
+ * print_most_numbers - prints numbers 0 to 9, except 2
  *
  * Return: returns nothing
  *
@@ -19,5 +19,5 @@ void print_most_numbers(void)
 		else
 			_putchar(i + '0');
 	}
-	_putchar('\n);
+	_putchar('\n');
 }
