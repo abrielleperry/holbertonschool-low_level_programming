@@ -7,7 +7,7 @@
 /**
  * _isupper - Checks if the character is lowercase
  *
- * @C: - the input letter or number
+ * @c: - the input letter or number
  *
  * Return: 1 if the character is lowercase, 0 otherwise
  **/
