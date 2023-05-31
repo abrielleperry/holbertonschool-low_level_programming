@@ -1,4 +1,8 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 #include "main.h"
+
 /* more headers go here */
 
 /**
@@ -15,7 +19,7 @@ int _isdigit(int c)
 	int i;
 	int r = 0;
 
-	for (i = 48 : i < 58; i++)
+	for (i = 48 ; i < 58; i++)
 	{
 		if (i == l)
 		{

@@ -1,10 +1,6 @@
 #ifndef _main_h_
 #define _main_h_
 
-#include <limits.h>
-#include <math.h>
-#include <stdio.h>
-
 int _putchar(char);
 int _isupper(int c);
 int _isdigit(int c);
