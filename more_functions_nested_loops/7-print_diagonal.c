@@ -3,7 +3,7 @@
 /* more headers go here */
 
 /**
- * print_diagnosal - prints the line of length i
+ * print_diagonal - prints the line of length i
  *
  * @n: length of line to print
  *
@@ -11,7 +11,7 @@
  *
  */
 
-void print_diagnosal(int n)
+void print_diagonal(int n)
 {
 	int i, j;
 
