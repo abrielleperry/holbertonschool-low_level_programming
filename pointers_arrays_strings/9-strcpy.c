@@ -8,7 +8,7 @@
  * Return: no return
  */
 
-char *_strcpy(chat *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int i = 0;
 
