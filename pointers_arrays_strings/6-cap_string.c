@@ -6,7 +6,7 @@
  * @s: string to capitalize
  * Return: returns the capitalized string
  */
-char *cap_string(char *s);
+char *cap_string(char *s)
 {
 	int i = 0, x = 0;
 
@@ -27,7 +27,6 @@ char *cap_string(char *s);
 
 		i++;
 	}
-
+	
 	return (s);
-
 }
