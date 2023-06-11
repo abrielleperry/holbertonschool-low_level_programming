@@ -8,7 +8,7 @@
  */
 char *leet(char *x)
 {
-	int i = 0
+	int i = 0;
 	char *answer = x;
 	char *spesh = "aAeEoOtTlL";
 	char *spesh2 = "4433007711";
