@@ -8,25 +8,25 @@
  */
 char *cap_string(char *s)
 {
-	int i = 0, x = 0;
+	int i = 0;
+	int z = 1;
+	char *answer = s;
+	char *spesh = " \t\n;,.!?\"(){}\0";
 
-	while (s[i])
+	while (*s)
 	{
-		if (x == 0 && s[i] >= 97 && s[i] <= 122)
+		if (z)
 		{
-			s[i] -= 32;
-			x = 1;
+			if (*s >= 'a' && *s <= 'z')
+				*s -= 32;
+			z = 0;
 		}
-
-		if (s[i] < 65 || (s[i] > 90 && s[i] < 97 || s[i] > 122)
-			x = 0;
+		for (i = 0; spesh[i]; i++)
+		{
+			if (*s == spesh[i])
+				z = 1;
 		}
-
-		if ((s[i] > 64 && s[i] < 91 || (s[i] > 47 && s[i] < 58) || s[i] == 45)
-		x = 1;
-
-		i++;
+		s++;
 	}
-	
-	return (s);
+	return (answer);
 }
