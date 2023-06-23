@@ -1,2 +1,2 @@
-#!/bin/mash
+#!/bin/bash
 C - Hello, World
