@@ -1,5 +1,8 @@
-#ifndef _main_h_
-#define _main_h_
+#ifndef MAIN_H
+#define MAIN_H
+
+#include <stdio.h>
+#include <stdlib.h>
 
 int main (int argc, char *argv[]);
 
