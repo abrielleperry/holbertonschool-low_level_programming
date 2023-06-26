@@ -1,11 +1,7 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef _main_h_
+#define _main_h_
 
-/*
- * file: main.h
- * auth: arp
- * desc: header file containing protypes
- */
+#include <stdio.h>
 
 int _putchar(char c);
 int _islower(int c);
